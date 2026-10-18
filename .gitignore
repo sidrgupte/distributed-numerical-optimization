@@ -1,0 +1,86 @@
+# =========================
+# C++ / CMake
+# =========================
+
+build/
+cmake-build-*/
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+
+# =========================
+# Experimental results
+# =========================
+
+results/*
+!results/.gitkeep
+!results/matmul_1d.csv
+!results/figures/
+results/figures/*
+!results/figures/execution_time.png
+!results/figures/speedup.png
+!results/figures/efficiency.png
+!results/figures/phase_timings.png
+
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+
+# =========================
+# LaTeX generated files
+# =========================
+
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+
+# =========================
+# Editors / IDEs
+# =========================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+*~
+
+
+# =========================
+# OS-generated files
+# =========================
+
+.DS_Store
+Thumbs.db

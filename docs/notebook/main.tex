@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[]{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    columns=fullflexible
+}
+
+\title{
+    \textbf{Distributed Numerical Optimization}\\
+    \large MPI Communication, Distributed Linear Algebra,
+    Krylov Solvers, and Large-Scale Optimization
+}
+
+\author{Sid Gupte}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+	\small
+	\textbf{Source Code:}
+	\href{https://github.com/sidrgupte/distributed-numerical-optimization.git}
+	{\texttt{github.com/sidrgupte/distributed-numerical-optimization}}
+\end{center}
+
+\tableofcontents
+\newpage
+
+% \input{sections/section0}
+\input{sections/section1}
+
+
+\end{document}
